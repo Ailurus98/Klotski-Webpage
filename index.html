@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Klotski</title>
+</head>
+<body>
+    <div style="position: relative;">
+        <div style="position: absolute; left: 0; top: 0; z-index: 1;">
+            <canvas id="graph"></canvas>
+        </div>
+        <div style="position: absolute; left: 0; top: 0; z-index: 1;">
+            <canvas id="board"></canvas>
+        </div>
+    </div>
+    <script src="data.json"></script>
+    <script src="client.js"></script>
+</body>
